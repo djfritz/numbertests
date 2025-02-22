@@ -17,7 +17,6 @@ import (
 )
 
 const (
-	resultPrecision   = 1000
 	internalPrecision = 34
 )
 
@@ -104,16 +103,9 @@ func processRounding(s string) {
 		mode = number.ModeNearestEven
 	case "half_up":
 		mode = number.ModeNearest
-		skip = true
-	case "up":
-		mode = number.ModeUp
-		skip = true
-	case "down":
+	case "down", "zero":
 		mode = number.ModeDown
-		skip = true
-	case "zero":
-		mode = number.ModeZero
-	case "half_down", "floor", "ceiling":
+	case "half_down", "floor", "ceiling", "up":
 		skip = true
 	default:
 		log.Fatalf("invalid rounding mode: %v", s)
@@ -141,9 +133,9 @@ func processTest(s string) {
 	}
 	name := fields[0]
 	op := fields[1]
-	l := fields[2]
-	r := fields[3]
-	e := fields[5]
+	l := strings.Trim(fields[2], "'")
+	r := strings.Trim(fields[3], "'")
+	e := strings.Trim(fields[5], "'")
 
 	if *fV {
 		fmt.Printf("test %v, op %v, l %v, r %v, expected %v", name, op, l, r, e)
@@ -157,7 +149,7 @@ func processTest(s string) {
 	if err != nil {
 		log.Fatalf("parsing: %v: %v", r, err)
 	}
-	ez, err := number.ParseReal(e, resultPrecision)
+	ez, err := number.ParseReal(e, internalPrecision)
 	if err != nil {
 		log.Fatalf("parsing: %v: %v", e, err)
 	}
@@ -187,7 +179,7 @@ func processTest(s string) {
 
 	if z.String() != ez.String() {
 		fail++
-		log.Printf("failed test: %v, %v != %v", s, z, ez)
+		log.Printf("failed test: %v, %v != %v, precision: %v, rounding mode: %v", s, z, ez, precision, mode)
 	} else {
 		success++
 	}
