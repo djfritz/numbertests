@@ -6,3 +6,5 @@ github.com/djfritz/number v0.0.0-20250222025141-772e77b6797d h1:iDDTUHTh+6oZZb7g
 github.com/djfritz/number v0.0.0-20250222025141-772e77b6797d/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
 github.com/djfritz/number v0.0.0-20250222025948-4ecadaee232f h1:r5EDeGQvc1k98en0YJX+lXQFpx83gFRuTH/1j415mW4=
 github.com/djfritz/number v0.0.0-20250222025948-4ecadaee232f/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
+github.com/djfritz/number v0.0.0-20250223012826-cebf5ae7e2aa h1:t5YJObyj1QtO+mipcilSoh+KBeMQxoR1pquddZyCN/8=
+github.com/djfritz/number v0.0.0-20250223012826-cebf5ae7e2aa/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
