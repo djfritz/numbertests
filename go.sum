@@ -1,10 +1,2 @@
-github.com/djfritz/number v0.0.0-20250221020404-d762509a7c1a h1:LQnAzcHS7wo0o6RhkRYQuTJ2pkgaqQ1444UiNs0Gozc=
-github.com/djfritz/number v0.0.0-20250221020404-d762509a7c1a/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
-github.com/djfritz/number v0.0.0-20250222013703-9f2a0041b88b h1:jPP8Pph2Ui5SANZDkK4vXFlbYWZFSkynGgf8M5FbuUM=
-github.com/djfritz/number v0.0.0-20250222013703-9f2a0041b88b/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
-github.com/djfritz/number v0.0.0-20250222025141-772e77b6797d h1:iDDTUHTh+6oZZb7ggC/ecshbG80LRjtEFER5Vfp7f8M=
-github.com/djfritz/number v0.0.0-20250222025141-772e77b6797d/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
-github.com/djfritz/number v0.0.0-20250222025948-4ecadaee232f h1:r5EDeGQvc1k98en0YJX+lXQFpx83gFRuTH/1j415mW4=
-github.com/djfritz/number v0.0.0-20250222025948-4ecadaee232f/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
-github.com/djfritz/number v0.0.0-20250223012826-cebf5ae7e2aa h1:t5YJObyj1QtO+mipcilSoh+KBeMQxoR1pquddZyCN/8=
-github.com/djfritz/number v0.0.0-20250223012826-cebf5ae7e2aa/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=
+github.com/djfritz/number v0.0.0-20250226215217-a7371c5a46e7 h1:zM1eUENII/iJE9IC1bZQH5tIRvWvcQwTb9beisou+lk=
+github.com/djfritz/number v0.0.0-20250226215217-a7371c5a46e7/go.mod h1:2HEZj6KykDEpCbBKzgUbQH9nUuuKSZYvuc3S34ghn5I=

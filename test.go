@@ -221,6 +221,8 @@ func processTest(s string) {
 		z = lo.Max(ro)
 	case "min":
 		z = lo.Min(ro)
+	case "remainder":
+		z = lo.Remainder(ro)
 	default:
 		if *fV {
 			log.Printf("skipping test: %v. Precision: %v. Rounding mode: %v", s, precision, mode)
